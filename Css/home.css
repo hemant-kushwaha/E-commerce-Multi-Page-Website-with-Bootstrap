@@ -1,0 +1,41 @@
+.home-title {
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-top: 6rem;
+    letter-spacing: 0.9rem;
+}
+.category-title {
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.category-list {
+    margin-top: 5rem;
+    gap: 1.5rem;
+}
+
+.category-item {
+border: 1px solid var(--pale-blue);
+box-shadow: 5px 5px 0.3rem var(--mid-gray);
+width: 10rem;
+background-color: var(--jean-blue);
+border-radius: 6px;
+padding: 20px 30px ;
+width: 300px;
+height: 100px ;
+text-align: center;
+}
+
+.category-item a {
+    text-decoration: none;
+    font-size: 1.35rem;
+    color: white;
+    /* padding: 20px 30px ; */
+    text-align: center;
+
+}
+
+.category-item:hover {
+    box-shadow: 0px 0px;
+    transition: box-shadow 0.15s linear 0s;
+}

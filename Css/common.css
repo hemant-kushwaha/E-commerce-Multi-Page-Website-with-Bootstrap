@@ -1,0 +1,54 @@
+:root {
+    --blue-gray:#e0e6e9;
+    --pale-blue:#2c3e50;
+    --mid-gray:#999;
+    --jean-blue:#3b5875;
+    --light-blue:#95afc0;
+    --sky-blue: #e1edf0;
+    --dark-sky-blue:#c7ecee;
+    --light-grey:#ccc;
+}
+html {
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+#Header {
+    background-color: var(--blue-gray);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0px;
+}
+
+#Header .header-wrapper .logo {
+    font-size: 2.2rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+#Header .header-wrapper .logo a {
+    color: black;
+    letter-spacing: 6px;
+}
+
+#Header .header-wrapper .users-actions {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    gap: 1rem;
+}
+
+#Header .header-wrapper .users-actions .logout-btn {
+    cursor: pointer;
+    margin-left: 2.2rem;
+}
+
+#Header .header-wrapper .users-actions a {
+    color: black;
+    text-decoration-line: none;
+}
+
+#Header .header-wrapper .users-actions a:hover {
+    text-decoration-line: underline;
+
+}

@@ -1,0 +1,49 @@
+.product-details-wrapper {
+    padding: 3rem;
+}
+
+.product-image {
+    flex-basis: 30%;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+    /* border: 0px solid rgb(232, 232, 229); */
+    box-shadow: 1px 1px 0.2rem rgb(171, 173, 171);
+}
+
+.product-details-box {
+    flex-basis: 60%;
+}
+
+.product-name {
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-price {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.product-description {
+    margin-top: 1.3rem;    
+}
+
+.product-description-title {
+    color: var(--jean-blue);
+    margin-bottom: 0.7rem;
+    font-size: 1.2rem;
+}
+
+.product-description-data {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.product-details-action {
+    margin-top: 1rem;
+    width: 200px;
+}
