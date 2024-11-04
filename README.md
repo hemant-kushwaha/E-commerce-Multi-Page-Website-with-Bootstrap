@@ -1,4 +1,3 @@
-# E-commerce-Multi-Page-Website-with-Bootstrap
 # 🛒E-commerce Multi-Page Website with Bootstrap
 
 ## 📖 Description
@@ -21,4 +20,4 @@ To view the project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/hemant-kushwaha/
+   git clone https://github.com/hemant-kushwaha/E-commerce-Multi-Page-Website-with-Bootstrap.git
