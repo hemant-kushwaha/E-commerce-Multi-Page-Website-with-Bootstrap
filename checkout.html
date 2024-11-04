@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/checkout.css">
+</head>
+
+<body>
+    <div id="checkoutPage">
+        <!-- Nav Bar -->
+        <nav id="Header">
+            <div class="container">
+                <div class="row">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo d-inline-block">
+                            <a href="index.html" class="text-decoration-none">Shop Karo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Content -->
+        <div class="container">
+            <div class="row">
+                <h2 class="checkout-title text-center">Checkout</h2>
+                <div class="checkout-wrapper d-flex flex-row justify-content-between">
+                    <!-- Shipping & Payment -->
+                    <div class="shipping-payment d-flex flex-column">
+                        <!-- Shipping Details -->
+                        <div class="shipping-info d-flex flex-column">
+                            <div class="shipping-info-title">Shipping Information</div>
+                            <div class="shipping-info-Contact-details d-flex flex-column">
+                                <div class="name d-flex flex-row justify-content-between">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="firstname" id="Firstrname">
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="lastname" id="lastrname">
+                                    </div>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Email Address" id="emailId">
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Address" id="address">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Payment Details -->
+                        <div class="payment-info d-flex flex- flex-column">
+                            <div class="payment-info-title">Payment Details</div>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Card number" id="cardNumber">
+                            </div>
+                            <div class="input-group">
+                                <a href="#" class="form-control btn btn-dark">Pay</a>
+                            </div>
+                            <div class="safe-btn text-center">100% &#128274; secure payment by razorpay</div>
+                        </div>
+
+                    </div>
+
+                    <!-- Order Summary -->
+                    <div class="order-summary d-flex flex-column">
+                        <div class="order-summary-title">Your Order Summary</div>
+                        <div class="order-summary-box d-flex flex-row justify-content-between">
+                            <div class="order-summary-image">
+                                <img src="img/product1.jpg" alt="xyz">
+                            </div>
+                            <div class="order-summary-details d-flex flex-column">
+                                <div class="order-summary-details-heading">Some Product</div>
+                                <div class="order-summary-details-info d-flex flex-column">
+                                    <div class="order-details-item d-flex flex-row justify-content-between">
+                                        <div>Item Count</div>
+                                        <div>1</div>
+                                    </div>
+                                    <div class="order-details-item d-flex flex-row justify-content-between">
+                                        <div>Subtotal</div>
+                                        <div>&#8377; 1345</div>
+                                    </div>
+                                    <div class="order-details-item d-flex flex-row justify-content-between">
+                                        <div>Delivery </div>
+                                        <div class="fw-bold"> FREE</div>
+                                    </div>
+                                    <div class="order-details-item d-flex flex-row justify-content-between">
+                                        <div>Taxes</div>
+                                        <div class="fw-bold">-</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="payment-btn d-flex flex- flex-column">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Discount code" id="discountCode">
+                            </div>
+                            <div class="total-btn btn btn-success d-flex flex-row">
+                                <div>Total</div>
+                                <div>&#8377;1345/-</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
